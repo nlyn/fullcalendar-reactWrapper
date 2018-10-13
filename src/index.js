@@ -1,6 +1,7 @@
 import React from 'react';
 import $ from "jquery";
 import fullCalendar from "fullcalendar";
+import 'fullcalendar-scheduler';
 import moment from 'moment';
 import FullcalendarObjectMapper from './fullcalendarObjectMapper';
 
@@ -26,7 +27,7 @@ export default class FullCalendar extends React.Component{
   	}
 
 	render(){
-		this.root = this.props.id || 'ID' + this.date.getTime(); 
+		this.root = this.props.id || 'ID' + this.date.getTime();
 		return(
 			<div id={this.root}></div>
 		)

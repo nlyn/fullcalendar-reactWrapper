@@ -1,4 +1,4 @@
-# fullcalendar-reactwrapper 
+# fullcalendar-reactwrapper
 
 A react wrapper component for the the [FullCalendar](https://fullcalendar.io/) (a javascript event calendar).
 
@@ -10,18 +10,18 @@ A react wrapper component for the the [FullCalendar](https://fullcalendar.io/) (
 5. [License](#license)
 
 
-## Installation 
+## Installation
 
-`npm install fullcalendar-reactwrapper --save`
+`npm install fullcalendar-reactwrapper-with-scheduler --save`
 
-Include `fullcalendar-reactwrapper/dist/css/fullcalendar.min.css` for styles.
+Include `fullcalendar-reactwrapper/dist/css/fullcalendar.min.css` and `fullcalendar-scheduler/dist/scheduler.min.css` for styles.
 
-## Building 
+## Building
 
 ## Basic usage
 
-`fullcalendar-reactwrapper` creates a `<FullCalendar/>` component. You can use it just like any other React component. For example:
- 
+`fullcalendar-reactwrapper-scheduler` creates a `<FullCalendar/>` component. You can use it just like any other React component. For example:
+
 ```jsx
 // import React...
 import React from 'react';
@@ -91,7 +91,7 @@ class ExampleComponent extends React.Component {
 	    navLinks= {true} // can click day/week names to navigate views
 	    editable= {true}
 	    eventLimit= {true} // allow "more" link when too many events
-	    events = {this.state.events}	
+	    events = {this.state.events}
 	/>
       </div>
     );
@@ -101,20 +101,18 @@ class ExampleComponent extends React.Component {
 
 The `id` property declares the `id` of the root element for the FullCalendar component. It is optional - if it isn't provided, the FullCalendar component will get a random generated `id`.
 
-## Examples 
+## Examples
 
-## License 
+## License
 MIT
 
 ## Dependencies
 
 * fullcalendar
-* moment 
-* jquery 
+* moment
+* jquery
 
-## Peer dependencies 
+## Peer dependencies
 
 * react
 * react-dom
-
-
