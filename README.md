@@ -1,6 +1,6 @@
-# fullcalendar-reactwrapper
+# fullcalendar-reactwrapper-scheduler
 
-A react wrapper component for the the [FullCalendar](https://fullcalendar.io/) (a javascript event calendar).
+A react wrapper component for the the [FullCalendar](https://fullcalendar.io/) (a javascript event calendar). This is a fork of [fullcalendar-reactWrapper](https://github.com/sanjeev07/fullcalendar-reactWrapper) with added support for FullCalendar's Scheduler plugin.
 
 ## Table of contents
 1. [Installation](#installation)
@@ -14,7 +14,7 @@ A react wrapper component for the the [FullCalendar](https://fullcalendar.io/) (
 
 `npm install fullcalendar-reactwrapper-with-scheduler --save`
 
-Include `fullcalendar-reactwrapper/dist/css/fullcalendar.min.css` and `fullcalendar-scheduler/dist/scheduler.min.css` for styles.
+Include `fullcalendar/dist/fullcalendar.min.css` and `fullcalendar-scheduler/dist/scheduler.min.css` for styles.
 
 ## Building
 
@@ -109,6 +109,7 @@ MIT
 ## Dependencies
 
 * fullcalendar
+* fullcalendar-scheduler
 * moment
 * jquery
 
