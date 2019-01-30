@@ -22,7 +22,7 @@
   "license": "MIT",
   "repository": "https://github.com/nlyn/fullcalendar-reactWrapper",
   "dependencies": {
-    "fullcalendar": "^3.9.0",
+    "fullcalendar": "^3.10.0",
     "fullcalendar-scheduler": "^1.9.4",
     "jquery": "^3.2.1",
     "react": ">=16.0.0",
